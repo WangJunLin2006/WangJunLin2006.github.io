@@ -1,0 +1,121 @@
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王君临 - 个人主页</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .title {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+        .contact {
+            margin: 20px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .project {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>王君临 (Wang Junlin)</h1>
+            <p class="title">计算机科学学生 | 寻求暑期实习机会</p >
+            <div class="contact">
+                <p>📧 邮箱：<a href=" ">your-email@example.com</a ></p >
+                <p>💼 LinkedIn：<a href="[您的LinkedIn主页链接]">访问我的主页</a ></p >
+                <p>💻 GitHub：<a href="https://github.com/WangJunLin2006">查看我的代码</a ></p >
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>关于我</h2>
+            <p>我是一名热衷于软件开发与人工智能的学生。目前正在澳门理工大学攻读计算机科学学位，预计于2029年毕业。正在寻找2025年暑期的软件开发实习岗位，希望能够将所学知识应用于实践，并不断提升自己的技术能力。</p >
+        </section>
+
+        <section id="skills">
+            <h2>技能</h2>
+            <ul>
+                <li><strong>编程语言：</strong>Python, Java, HTML/CSS, JavaScript</li>
+                <li><strong>框架与工具：</strong>Git, Django, TensorFlow, VS Code</li>
+                <li><strong>数据库：</strong>MySQL, SQLite</li>
+                <li><strong>语言能力：</strong>普通话 (母语), 英语 (流利)</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>项目经验</h2>
+            <div class="project">
+                <h3>校园图书共享系统</h3>
+                <p>领导一个4人团队开发了一个在线图书共享平台。负责后端API设计与数据库架构，使用Python Django框架实现。项目实现了用户注册、图书发布、借阅管理等功能。</p >
+                <p><a href="https://github.com/WangJunLin2006">查看项目代码 →</a ></p >
+            </div>
+            <div class="project">
+                <h3>个人学习管理系统</h3>
+                <p>独立开发了一个用于跟踪学习进度和任务管理的Web应用。使用HTML、CSS和JavaScript实现前端界面，使用LocalStorage进行数据持久化存储。</p >
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>教育背景</h2>
+            <p><strong>澳门理工大学</strong> - 计算机科学学士 (2023 - 2026)</p >
+            <ul>
+                <li>主修课程：数据结构、算法设计、操作系统、数据库系统、人工智能</li>
+                <li>GPA: 3.5/4.0 （请根据实际情况修改）</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+```
